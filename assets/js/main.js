@@ -10,7 +10,7 @@
 		init: function() {
 			var video = document.createElement('video')
 			video.loop = video.autoplay = ' '
-			video.volume = 0.05
+			video.volume = 0.15
 			video.src = './assets/media/video/snail.webm'
 			document.body.appendChild(video)
 			var canvas = document.createElement('canvas')
@@ -38,3 +38,10 @@
 
 	document.addEventListener('DOMContentLoaded', Main.init)
 }).call(this)
+
+/*
+  w     h
+01920 01080
+01280 00720
+00016 00009
+*/
